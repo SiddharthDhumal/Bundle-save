@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Montserrat+Alternates:wght@500;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+html,body{
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+.main{
+    width:40.375rem;
+    height:80%;
+    margin:5rem auto;
+    padding: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.head__line{
+    color:#007F61;
+    font-family:'Metropolis',sans-serif;
+    font-size:1.13rem;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    width:21.313rem; 
+    text-align: center; 
+    border-bottom: 1px solid #C8C8C8; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.head__line span { 
+    background:#fff; 
+    padding:0 10px;
+    width:5.875rem;
+    height:0.057rem;
+}
+
+.first__pair{
+    width:21.296rem;
+    height:4.632rem;
+
+   
+    border-radius: 0.226rem;
+    border: 0.057rem solid #C8C8C8;
+    background: #FFF;
+ 
+
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-shrink: 0;
+ 
+    margin:0.226rem;
+    padding:1.5rem 0;
+    cursor:pointer;
+
+    transition: height 0.02s;
+}
+
+
+
+.second__pair{
+    width:21.296rem;
+    height:4.632rem;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-shrink: 0;
+
+    border-radius: 0.226rem;
+    border: 0.057rem solid #C8C8C8;
+    background: #FFF;
+
+
+    margin:0.226rem;
+    padding:1.5rem 0;
+    cursor:pointer;
+
+
+    transition: height 0.02s;
+}
+
+
+.third__pair{
+    width:21.296rem;
+    height:4.632rem;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-shrink: 0;
+
+    border-radius: 0.226rem;
+    border: 0.057rem solid #C8C8C8;
+    background: #FFF;
+
+    margin:0.226rem;
+    padding:1.5rem 0;
+    cursor:pointer;
+
+    transition: height 0.02s;
+}
+
+
+.radio-btn{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.938rem;
+    width:8.248rem;
+    font-size:0.904rem;
+    font-weight:500;
+}
+
+
+.desc_span{
+    font-weight:400;
+}
+
+
+.range_span{
+    font-weight:500;
+}
+
+
+.price__range{
+    display:flex;
+    font-weight:500;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    gap:0.313rem;
+}
+
+
+.input__btn{
+    stroke-width: 0.057rem;
+    stroke: #DADADA;
+}
+
+
+
+.article{
+    font-weight:500;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+
+
+
+.second__pair__prices{
+    position:relative;
+}
+
+.second__piar__original__price{
+   font-size:0.621rem;
+   color:#000;
+   opacity: 0.3;
+   font-weight:400;
+   font-family:'Inter',sans-serif;
+   position:absolute;
+   top:0;
+   right:-5.5rem;
+}
+
+
+
+
+
+
+
+.first__extended__section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.second__extended__section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+.third__extended__section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ 
+}
+
+
+.hide__extended__section{
+    display:none;
+}
+
+
+
+
+
+.sizes{
+   width:4.124rem;
+   margin:0.2rem;
+}
+
+.opt__num{
+    margin-bottom:25px;
+}
+
+.label{
+    font-size:0.621rem;
+    font-weight:400;
+    font-family:'Inter',sans-serif;
+}
+
+.select__size{
+    width:4.124rem;
+    height:1.582rem;
+    margin:0.2rem 0;
+    
+}
+
+
+
+
+
+.first__pair__aside{
+    text-transform:uppercase;
+    font-weight:500;
+}
+
+.second__pair__aside{
+    color:#000;
+    font-size:0.791rem;
+    font-weight:500;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:0.938rem;
+}
+
+
+.third__pair__aside{
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:0.904rem;
+}
+
+
+
+
+
+.second__pair__most__popular{
+    color:#007F61;    
+    font-weight:600;
+    font-size:0.791rem;
+}
+
+
+.size__numbers{
+    font-size:0.565rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+
+.summary{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:21.313rem;
+}
+
+.free__shipping{
+    color:#007F61;
+    font-size:0.875rem;
+    font-family:'Inter',sans-serif;
+    font-weight:500;
+    opacity:0.6;
+}
+
+.total{
+    color:#000;
+    font-size:0.875rem;
+    font-family:'Inter',sans-serif;
+    font-weight:400;
+
+}
+
+.add__to__cart{
+    background-color:#007F61;
+    width:21.313rem;
+    height:3rem;
+    border-radius: 4px 4px 4px 0px;
+    color:#fff;
+    font-weight:600;
+    font-size:1rem;
+    border:none;
+    cursor:pointer;
+}
+
+.poweredby{
+    font-weight:300;
+    font-size:0.75rem;
+    text-align:right;
+    width:21.313rem;
+    font-style: italic;
+}
+
+
+.selected__pair{
+    width:21.313rem;
+    height:10.125rem;
+    border: 0.057rem solid #007F61;
+    border-radius:0.226rem;
+    background-color:#F4FBF9;
+  
+}
+
+
+/* Media Queries */
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens go here */
+
+    body{
+        width:100%;
+    }
+
+    .main{
+        width:100%;
+        height:100%;
+        margin:2rem auto;
+        padding: 20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        row-gap:1rem;
+    }
+
+    .second__piar__original__price{
+      font-size:0.621rem;
+      color:#000;
+      opacity: 0.3;
+      font-weight:400;
+      font-family:'Inter',sans-serif;
+      position:absolute;
+      top:0;
+      right: -5.5rem;
+   }
+
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens go here */
+
+    
+   html,body{
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%; 
+    }
+
+    .main{
+        width:100%;
+        height:100%;
+        margin:5rem auto;
+        padding: 1.25rem;
+        /* border:1px solid black; */
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        row-gap:1.563rem;
+    }
+
+
+    section{
+        width:100%;
+    }
+
+    .second__piar__original__price{
+      font-size:0.621rem;
+      color:#000;
+      opacity: 0.3;
+      font-weight:400;
+      font-family:'Inter',sans-serif;
+      position:absolute;
+      top:0;
+      right: -5.5rem;
+   }
+
+
+  }
